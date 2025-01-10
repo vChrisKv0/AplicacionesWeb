@@ -1,0 +1,306 @@
+2025-01-08T10:49:46.098-06:00  INFO 4528 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 4528 (E:\conexionbd\target\classes started by CA2-Enero in E:\conexionbd)
+2025-01-08T10:49:46.114-06:00  INFO 4528 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T10:49:46.707-06:00  INFO 4528 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T10:49:46.855-06:00  INFO 4528 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 7 JPA repository interfaces.
+2025-01-08T10:49:47.228-06:00  INFO 4528 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T10:49:47.237-06:00  INFO 4528 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T10:49:47.237-06:00  INFO 4528 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T10:49:47.284-06:00  INFO 4528 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T10:49:47.284-06:00  INFO 4528 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+2025-01-08T10:49:47.428-06:00  INFO 4528 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T10:49:47.476-06:00  INFO 4528 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T10:49:47.503-06:00  INFO 4528 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T10:49:47.729-06:00  INFO 4528 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T10:49:47.751-06:00  INFO 4528 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T10:49:47.976-06:00  INFO 4528 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2025-01-08T10:49:47.977-06:00  INFO 4528 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T10:49:48.012-06:00  WARN 4528 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T10:49:48.013-06:00  WARN 4528 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T10:49:48.920-06:00  INFO 4528 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T10:49:50.250-06:00  INFO 4528 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T10:49:50.554-06:00  INFO 4528 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T10:49:50.851-06:00  WARN 4528 --- [conexionbd] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-08T10:49:51.216-06:00  INFO 4528 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-08T10:49:51.225-06:00  INFO 4528 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Started ConexionbdApplication in 5.529 seconds (process running for 6.084)
+2025-01-08T10:49:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:49:51.299-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T10:51:45.288-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-08T10:51:45.288-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-08T10:51:45.289-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-01-08T10:51:51.235-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:51:51.240-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T10:53:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:53:51.232-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T10:54:37.687-06:00  WARN 4528 --- [conexionbd] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.conexionbd.utils.Message> com.example.conexionbd.peliculas.control.PeliculaController.saveDocument(com.example.conexionbd.peliculas.model.PeliculaDTO): [Field error in object 'peliculaDTO' on field 'name': rejected value [null]; codes [NotBlank.peliculaDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [peliculaDTO.name,name]; arguments []; default message [name]]; default message [no debe estar vacío]] ]
+2025-01-08T10:55:04.195-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-8] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T10:55:13.555-06:00  WARN 4528 --- [conexionbd] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.conexionbd.utils.Message> com.example.conexionbd.peliculas.control.PeliculaController.saveDocument(com.example.conexionbd.peliculas.model.PeliculaDTO): [Field error in object 'peliculaDTO' on field 'name': rejected value [null]; codes [NotBlank.peliculaDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [peliculaDTO.name,name]; arguments []; default message [name]]; default message [no debe estar vacío]] ]
+2025-01-08T10:55:19.075-06:00  WARN 4528 --- [conexionbd] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.conexionbd.utils.Message> com.example.conexionbd.peliculas.control.PeliculaController.saveDocument(com.example.conexionbd.peliculas.model.PeliculaDTO) with 2 errors: [Field error in object 'peliculaDTO' on field 'description': rejected value [null]; codes [NotBlank.peliculaDTO.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [peliculaDTO.description,description]; arguments []; default message [description]]; default message [no debe estar vacío]] [Field error in object 'peliculaDTO' on field 'name': rejected value [null]; codes [NotBlank.peliculaDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [peliculaDTO.name,name]; arguments []; default message [name]]; default message [no debe estar vacío]] ]
+2025-01-08T10:55:44.749-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-3] c.e.c.peliculas.control.PeliculaService  : El registro ha sido realizado correctamente
+2025-01-08T10:55:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:55:51.240-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T10:55:53.564-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-4] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T10:57:51.235-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:57:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T10:59:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T10:59:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:01:51.237-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:01:51.239-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:03:51.232-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:03:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:05:51.240-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:05:51.244-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:07:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:07:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:09:51.225-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:09:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:11:51.232-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:11:51.235-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:13:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:13:51.236-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:13:53.853-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-10] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:15:22.303-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-5] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:15:49.304-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-8] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:15:51.230-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:15:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:16:36.093-06:00  WARN 4528 --- [conexionbd] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-01-08T11:17:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:17:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:19:16.740-06:00  WARN 4528 --- [conexionbd] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-01-08T11:19:23.095-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-4] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:19:36.658-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-5] c.e.c.peliculas.control.PeliculaService  : La actualización del estado ha sido realizada correctamente
+2025-01-08T11:19:43.386-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-6] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:19:46.096-06:00  INFO 4528 --- [conexionbd] [http-nio-8080-exec-7] c.e.c.peliculas.control.PeliculaService  : La búsqueda ha sido realizada correctamente
+2025-01-08T11:19:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:19:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:21:51.240-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:21:51.242-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:23:51.228-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:23:51.232-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:25:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:25:51.235-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:27:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:27:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:29:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:29:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:31:51.242-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:31:51.246-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:33:51.237-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:33:51.241-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:35:51.230-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:35:51.233-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:37:51.230-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:37:51.235-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:39:51.229-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:39:51.233-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:41:51.241-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:41:51.243-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:43:51.232-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:43:51.234-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:45:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:45:51.231-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:47:51.236-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:47:51.238-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:49:51.236-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:49:51.237-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:51:51.227-06:00  INFO 4528 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:51:51.230-06:00  INFO 4528 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:53:09.518-06:00  INFO 4528 --- [conexionbd] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T11:53:09.520-06:00  INFO 4528 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T11:53:09.524-06:00  INFO 4528 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-08T11:53:12.982-06:00  INFO 7584 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 7584 (E:\conexionbd\target\classes started by CA2-Enero in E:\conexionbd)
+2025-01-08T11:53:12.985-06:00  INFO 7584 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T11:53:13.602-06:00  INFO 7584 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T11:53:13.780-06:00  INFO 7584 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 8 JPA repository interfaces.
+2025-01-08T11:53:14.144-06:00  INFO 7584 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T11:53:14.153-06:00  INFO 7584 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T11:53:14.154-06:00  INFO 7584 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T11:53:14.199-06:00  INFO 7584 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T11:53:14.200-06:00  INFO 7584 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1183 ms
+2025-01-08T11:53:14.373-06:00  INFO 7584 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T11:53:14.415-06:00  INFO 7584 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T11:53:14.440-06:00  INFO 7584 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T11:53:14.678-06:00  INFO 7584 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T11:53:14.700-06:00  INFO 7584 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T11:53:14.929-06:00  INFO 7584 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ad896f7
+2025-01-08T11:53:14.931-06:00  INFO 7584 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T11:53:14.966-06:00  WARN 7584 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T11:53:14.967-06:00  WARN 7584 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T11:53:15.949-06:00  INFO 7584 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T11:53:16.332-06:00  INFO 7584 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T11:53:16.656-06:00  INFO 7584 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T11:53:16.921-06:00  WARN 7584 --- [conexionbd] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'risController' defined in file [E:\conexionbd\target\classes\com\example\conexionbd\ris\controller\RisController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.conexionbd.ris.controller.RisService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-01-08T11:53:16.921-06:00  INFO 7584 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T11:53:16.923-06:00  INFO 7584 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T11:53:16.928-06:00  INFO 7584 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-08T11:53:16.929-06:00  INFO 7584 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-08T11:53:16.937-06:00  INFO 7584 --- [conexionbd] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-08T11:53:16.955-06:00 ERROR 7584 --- [conexionbd] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.conexionbd.ris.controller.RisController required a bean of type 'com.example.conexionbd.ris.controller.RisService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.conexionbd.ris.controller.RisService' in your configuration.
+
+2025-01-08T11:53:47.846-06:00  INFO 2760 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 2760 (E:\conexionbd\target\classes started by CA2-Enero in E:\conexionbd)
+2025-01-08T11:53:47.849-06:00  INFO 2760 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T11:53:48.454-06:00  INFO 2760 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T11:53:48.623-06:00  INFO 2760 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 8 JPA repository interfaces.
+2025-01-08T11:53:48.990-06:00  INFO 2760 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T11:53:48.999-06:00  INFO 2760 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T11:53:48.999-06:00  INFO 2760 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T11:53:49.044-06:00  INFO 2760 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T11:53:49.044-06:00  INFO 2760 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1153 ms
+2025-01-08T11:53:49.199-06:00  INFO 2760 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T11:53:49.243-06:00  INFO 2760 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T11:53:49.267-06:00  INFO 2760 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T11:53:49.499-06:00  INFO 2760 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T11:53:49.520-06:00  INFO 2760 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T11:53:49.736-06:00  INFO 2760 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@191f4d65
+2025-01-08T11:53:49.737-06:00  INFO 2760 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T11:53:49.772-06:00  WARN 2760 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T11:53:49.772-06:00  WARN 2760 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T11:53:50.681-06:00  INFO 2760 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T11:53:51.077-06:00  INFO 2760 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T11:53:51.403-06:00  INFO 2760 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T11:53:51.697-06:00  WARN 2760 --- [conexionbd] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-08T11:53:52.047-06:00  INFO 2760 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-08T11:53:52.055-06:00  INFO 2760 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Started ConexionbdApplication in 4.591 seconds (process running for 5.064)
+2025-01-08T11:53:52.067-06:00  INFO 2760 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:53:52.139-06:00  INFO 2760 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:53:57.444-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-08T11:53:57.444-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-08T11:53:57.445-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-08T11:53:57.478-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-2] c.e.c.personal.control.PersonalService   : La búsqueda del personal ha sido realizada correctamente
+2025-01-08T11:55:16.356-06:00  WARN 2760 --- [conexionbd] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-01-08T11:55:31.350-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-6] c.e.c.personal.control.PersonalService   : El registro del personal ha sido realizado correctamente
+2025-01-08T11:55:36.855-06:00  INFO 2760 --- [conexionbd] [http-nio-8080-exec-7] c.e.c.personal.control.PersonalService   : La búsqueda del personal ha sido realizada correctamente
+2025-01-08T11:55:52.059-06:00  INFO 2760 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T11:55:52.064-06:00  INFO 2760 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T11:56:40.008-06:00  INFO 2760 --- [conexionbd] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T11:56:40.009-06:00  INFO 2760 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T11:56:40.014-06:00  INFO 2760 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-08T21:29:15.450-06:00  INFO 13640 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 13640 (E:\conexionbd\target\classes started by 52777 in E:\conexionbd)
+2025-01-08T21:29:15.455-06:00  INFO 13640 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:29:17.144-06:00  INFO 13640 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T21:29:17.388-06:00  INFO 13640 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 9 JPA repository interfaces.
+2025-01-08T21:29:17.919-06:00  INFO 13640 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T21:29:17.933-06:00  INFO 13640 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T21:29:17.933-06:00  INFO 13640 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T21:29:17.996-06:00  INFO 13640 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T21:29:17.996-06:00  INFO 13640 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2489 ms
+2025-01-08T21:29:18.204-06:00  INFO 13640 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T21:29:18.271-06:00  INFO 13640 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T21:29:18.307-06:00  INFO 13640 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T21:29:18.613-06:00  INFO 13640 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T21:29:18.640-06:00  INFO 13640 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T21:29:19.085-06:00  INFO 13640 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f6c8d45
+2025-01-08T21:29:19.087-06:00  INFO 13640 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T21:29:19.159-06:00  WARN 13640 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T21:29:19.161-06:00  WARN 13640 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T21:29:20.467-06:00  INFO 13640 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T21:29:21.914-06:00  INFO 13640 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:29:22.421-06:00  INFO 13640 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T21:29:22.923-06:00  WARN 13640 --- [conexionbd] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-08T21:29:23.500-06:00  INFO 13640 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-08T21:29:23.514-06:00  INFO 13640 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Started ConexionbdApplication in 8.724 seconds (process running for 10.569)
+2025-01-08T21:29:23.529-06:00  INFO 13640 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:29:23.626-06:00  INFO 13640 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:31:23.522-06:00  INFO 13640 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:31:23.525-06:00  INFO 13640 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:32:01.873-06:00  INFO 13640 --- [conexionbd] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:32:01.875-06:00  INFO 13640 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T21:32:01.881-06:00  INFO 13640 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-08T21:34:59.821-06:00  INFO 12652 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 12652 (E:\conexionbd\target\classes started by 52777 in E:\conexionbd)
+2025-01-08T21:34:59.825-06:00  INFO 12652 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:35:00.885-06:00  INFO 12652 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T21:35:01.122-06:00  INFO 12652 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 228 ms. Found 9 JPA repository interfaces.
+2025-01-08T21:35:01.557-06:00  INFO 12652 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T21:35:01.567-06:00  INFO 12652 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T21:35:01.567-06:00  INFO 12652 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T21:35:01.620-06:00  INFO 12652 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T21:35:01.620-06:00  INFO 12652 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1736 ms
+2025-01-08T21:35:01.806-06:00  INFO 12652 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T21:35:01.864-06:00  INFO 12652 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T21:35:01.894-06:00  INFO 12652 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T21:35:02.217-06:00  INFO 12652 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T21:35:02.245-06:00  INFO 12652 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T21:35:02.567-06:00  INFO 12652 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59371066
+2025-01-08T21:35:02.569-06:00  INFO 12652 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T21:35:02.612-06:00  WARN 12652 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T21:35:02.613-06:00  WARN 12652 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T21:35:03.744-06:00  INFO 12652 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T21:35:04.217-06:00  INFO 12652 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:35:04.659-06:00  INFO 12652 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T21:35:05.126-06:00  WARN 12652 --- [conexionbd] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-08T21:35:05.900-06:00  INFO 12652 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-08T21:35:05.929-06:00  INFO 12652 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Started ConexionbdApplication in 6.561 seconds (process running for 7.182)
+2025-01-08T21:35:05.954-06:00  INFO 12652 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:35:06.045-06:00  INFO 12652 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:35:23.341-06:00  INFO 12652 --- [conexionbd] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:35:23.343-06:00  INFO 12652 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T21:35:23.348-06:00  INFO 12652 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-08T21:35:27.488-06:00  INFO 9752 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Starting ConexionbdApplication using Java 17.0.10 with PID 9752 (E:\conexionbd\target\classes started by 52777 in E:\conexionbd)
+2025-01-08T21:35:27.491-06:00  INFO 9752 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:35:28.494-06:00  INFO 9752 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-08T21:35:28.741-06:00  INFO 9752 --- [conexionbd] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 9 JPA repository interfaces.
+2025-01-08T21:35:29.228-06:00  INFO 9752 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-08T21:35:29.240-06:00  INFO 9752 --- [conexionbd] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-08T21:35:29.241-06:00  INFO 9752 --- [conexionbd] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-08T21:35:29.292-06:00  INFO 9752 --- [conexionbd] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-08T21:35:29.293-06:00  INFO 9752 --- [conexionbd] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1753 ms
+2025-01-08T21:35:29.493-06:00  INFO 9752 --- [conexionbd] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-08T21:35:29.540-06:00  INFO 9752 --- [conexionbd] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-08T21:35:29.572-06:00  INFO 9752 --- [conexionbd] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-08T21:35:29.867-06:00  INFO 9752 --- [conexionbd] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-08T21:35:29.892-06:00  INFO 9752 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-08T21:35:30.161-06:00  INFO 9752 --- [conexionbd] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e9fb485
+2025-01-08T21:35:30.163-06:00  INFO 9752 --- [conexionbd] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-08T21:35:30.200-06:00  WARN 9752 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-08T21:35:30.201-06:00  WARN 9752 --- [conexionbd] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-08T21:35:31.553-06:00  INFO 9752 --- [conexionbd] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-08T21:35:31.994-06:00  INFO 9752 --- [conexionbd] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:35:32.442-06:00  INFO 9752 --- [conexionbd] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-08T21:35:32.847-06:00  WARN 9752 --- [conexionbd] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-08T21:35:33.316-06:00  INFO 9752 --- [conexionbd] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-08T21:35:33.326-06:00  INFO 9752 --- [conexionbd] [main] c.e.conexionbd.ConexionbdApplication     : Started ConexionbdApplication in 6.356 seconds (process running for 7.002)
+2025-01-08T21:35:33.337-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:35:33.403-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:37:09.005-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-08T21:37:09.005-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-08T21:37:09.007-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-08T21:37:09.242-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-2] c.e.c.personal.control.PersonalService   : El registro del personal ha sido realizado correctamente
+2025-01-08T21:37:20.067-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-3] c.e.c.personal.control.PersonalService   : La búsqueda del personal ha sido realizada correctamente
+2025-01-08T21:37:33.341-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:37:33.352-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:38:02.837-06:00  WARN 9752 --- [conexionbd] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "asistencia"]
+2025-01-08T21:38:06.739-06:00  WARN 9752 --- [conexionbd] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-01-08T21:39:33.336-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:39:33.345-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:40:17.050-06:00  WARN 9752 --- [conexionbd] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"]
+2025-01-08T21:41:33.339-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:41:33.346-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:43:33.331-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:43:33.341-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:45:02.743-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-8] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:45:06.464-06:00  INFO 9752 --- [conexionbd] [http-nio-8080-exec-10] c.e.c.personal.control.PersonalService   : La búsqueda del personal ha sido realizada correctamente
+2025-01-08T21:45:33.342-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:45:33.350-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:47:33.342-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:47:33.349-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:49:33.337-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:49:33.346-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:51:33.336-06:00  INFO 9752 --- [conexionbd] [scheduling-1] c.e.c.personas.control.PersonaService    : Obteniendo todas las personas
+2025-01-08T21:51:33.345-06:00  INFO 9752 --- [conexionbd] [scheduling-1] com.example.conexionbd.utils.CronJobs    : No hay personas registradas.
+2025-01-08T21:52:19.166-06:00  INFO 9752 --- [conexionbd] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08T21:52:19.174-06:00  INFO 9752 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-08T21:52:19.206-06:00  INFO 9752 --- [conexionbd] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
